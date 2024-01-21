@@ -12,9 +12,7 @@ void main() {
         ),
         backgroundColor: Colors.blueGrey,
         body: const Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://www.w3schools.com/w3css/img_lights.jpg')),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
